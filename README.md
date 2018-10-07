@@ -49,7 +49,7 @@ Repository WebPage 의 우측에 위치한 `Clone or download` 버튼을 클릭�
 
 잠시 기다리면 연동이 완료되고 Source Tree 기본 셋팅은 여기까지 입니다.  
 
-### 프로젝트 진행하기  
+## 프로젝트 진행하기  
 프로젝트에서 지켜야 할 규칙은 `GitFlow`, `기능단위 이슈 생성` , `Commit Message 양식` 입니다.  
 
 #### 기능단위 이슈 생성
