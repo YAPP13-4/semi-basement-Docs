@@ -1,11 +1,11 @@
 # semi-basement-DevelopGuide
 semi-basement의 개발 가이드  
-본 문서는 OSX 기준으로 작성되었습니다.  
+본 문서는 MacOS 기준으로 작성되었습니다.  
 ## 개발환경 셋팅
 권장하는 SW 목록은 아래와 같습니다.  
-* Visual Stuio Code : Code Editoer
+* Visual Stuio Code : Code Editor
 * Source Tre : Git GUI Tool
-* API Tester : Swagger 
+* API Tester : PostMan 
 
 ### Visual Studio Code 
 효율적 협업을 위해 아래 플러그인들을 설치합니다.  
@@ -22,10 +22,11 @@ semi-basement의 개발 가이드
 {
     "editor.tabSize": 2,
     "editor.formatOnSave": true,
+    "prettier.semi": false
 }
 ```
 
-위 내용을 적어줍니다.  Javascript의 기본 TabSize는 2칸이며, 저장시에 자동으로 코드가 정렬되도록 합니다.  
+위 내용을 적어줍니다.  Javascript의 기본 `TabSize`는 2칸이며, 저장시에 자동으로 코드가 정렬되도록 합니다.  
 
 ### SourceTree 설정하기 
 SourceTree를 다운 받고, 만약 계정이 연동되어 있지 않다면 계정을 먼저 연동시켜 줍니다.
