@@ -123,4 +123,4 @@ Commit Message에 포함되어야 하는 내용은 다음 세 가지 입니다.
 ```
 
 ## 참고
-Thx To, @nayunhwan
+Thx To, (@nayunhwan)[https://github.com/nayunhwan]
