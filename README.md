@@ -121,3 +121,6 @@ Commit Message에 포함되어야 하는 내용은 다음 세 가지 입니다.
 [#1] feat : Music Player Prev 기능 구현 
 [#2] fix : Prev 시 undef Error 수정 
 ```
+
+## 참고
+Thx To, @nayunhwan
