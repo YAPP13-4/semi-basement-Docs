@@ -20,13 +20,12 @@ semi-basement의 개발 가이드
 
 ```json
 {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "prettier.semi": false
+    "editor.formatOnSave": true
 }
 ```
 
 위 내용을 적어줍니다.  Javascript의 기본 `TabSize`는 2칸이며, 저장시에 자동으로 코드가 정렬되도록 합니다.  
+이 외의 내용은 `.prettierrc` 의 셋팅을 적용합니다. 
 
 ### SourceTree 설정하기 
 SourceTree를 다운 받고, 만약 계정이 연동되어 있지 않다면 계정을 먼저 연동시켜 줍니다.
@@ -121,6 +120,7 @@ Commit Message에 포함되어야 하는 내용은 다음 세 가지 입니다.
 [#1] feat : Music Player Prev 기능 구현 
 [#2] fix : Prev 시 undef Error 수정 
 ```
+
 
 ## 참고
 Thx To, [@nayunhwan](https://github.com/nayunhwan)
